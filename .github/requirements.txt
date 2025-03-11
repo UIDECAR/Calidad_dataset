@@ -1,0 +1,9 @@
+conda create --name deber3 python=3.12.7
+conda init
+exec bash
+conda activate deber3
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install scipy
